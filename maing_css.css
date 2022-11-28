@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(171, 220, 228);
+    height:100vh;
+    width: 100%;
+
+}
+#head{
+    background-color: rgb(187, 230, 230);
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    top:20px;    
+}
+
+#container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.main{
+    width:70vw;
+    height: 70vh;
+    background-color: white;
+    text-align: center;
+    
+}
