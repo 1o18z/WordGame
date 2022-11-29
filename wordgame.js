@@ -31,6 +31,7 @@ let x = setInterval(function(){
   document.getElementById("demo").innerHTML = min + "분" + sec + "초";
   time--;
   
+
   if(time < 5){
     document.getElementById("demo").style.boxShadow = '0 0 20px 10px red';
   }
@@ -42,7 +43,13 @@ let x = setInterval(function(){
   }
 }, 1000);
 
+// 버튼
+
 function Btn(){
   alert("일시정지🕐");
   
+}
+
+function RetryBtn(){
+  window.location.reload();
 }

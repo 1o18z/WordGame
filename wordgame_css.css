@@ -51,7 +51,7 @@
   }
 
   #back a{
-    color:rgb(31, 73, 80);
+    color:rgb(65, 63, 63);
 
   }
   #demo{
@@ -72,10 +72,8 @@
     width:35px;
     height: 35px;
     text-align: center;
-    background-color: rgb(47, 69, 73);
-    border-radius: 3px;
-    color:white;
-    font-size: 0.8em;
+    color:rgb(65, 63, 63);
+    font-size: 1.2em;
     position:fixed;
     top:24px;
     left:80%;
@@ -86,5 +84,14 @@
     position:relative;
     bottom: 10px;
     text-align: center;
+  }
+
+  #retryBtn {
+    position: fixed;
+    top: 14px;
+    left: 85%;
+    font-size: 1.2em;
+    color: rgb(65, 63, 63);
+    cursor: pointer;
   }
 
