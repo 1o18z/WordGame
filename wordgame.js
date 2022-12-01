@@ -21,7 +21,7 @@ function removeWord(){
 input.addEventListener('change',removeWord);
 
 // 여기부터 시간
-let time = 15;
+let time = 15000;
 let min = "";
 let sec = "";
 

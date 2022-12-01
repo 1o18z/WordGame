@@ -1,4 +1,4 @@
-const words = ['red', 'orange', 'yellow', 'green', 'blue', 'purple', 'pink', 'black', 'gray', 'white'];
+const words = ['red', 'orange', 'yellow', 'green', 'blue', 'purple', 'pink', 'black', 'gray', 'white', 'navy', 'gold', 'silver'];
 const container = document.querySelector('#container');
 
 function getRandomInt(minimum, maximum) {

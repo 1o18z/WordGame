@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
     text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+
   }
   
   body {
@@ -10,7 +12,7 @@
       height: 100vh;
       margin: 0;
       padding: 0;
-    background-color: rgb(209, 247, 255);
+      background:linear-gradient(#ffd6d8 20%, #fffbc5, #ffd7b0) ;
   }
   
   #container {
@@ -30,7 +32,7 @@
       left: 50%;
       padding: 10px;
       margin-bottom: 20px;
-      box-shadow:0 0 25px 3px rgb(118, 181, 240);
+      box-shadow:0 0 25px 3px rgba(186, 122, 199, 0.654);
       transform: translateX(-50%);
       font-size: 16px;
       border: none;
@@ -43,17 +45,8 @@
       font-size: 20px;
       font-weight: 500;
   }
-  #back{
-    position:fixed;
-    top: -5px;
-    left:1%;
-    font-size: 1.3em;
-  }
-
-  #back a{
-    color:rgb(65, 63, 63);
-
-  }
+ 
+  
   #demo{
     width: 20%;
     height: 40px;
@@ -72,26 +65,25 @@
     width:35px;
     height: 35px;
     text-align: center;
-    color:rgb(65, 63, 63);
-    font-size: 1.2em;
+    color:rgba(255, 158, 158, 0.819);
+    font-size: 0.7em;
     position:fixed;
-    top:24px;
+    top:8px;
     left:80%;
     cursor: pointer;
   }
 
   #stopBtn h2{
     position:relative;
-    bottom: 10px;
     text-align: center;
   }
 
   #retryBtn {
     position: fixed;
-    top: 14px;
+    top: 10px;
     left: 85%;
-    font-size: 1.2em;
-    color: rgb(65, 63, 63);
+    font-size: 0.7em;
+    color: #bc91d8;
     cursor: pointer;
   }
 
